@@ -12,9 +12,40 @@ namespace calculadoraform
 {
     public partial class Calculadora : Form
     {
+        // Variáveis globais:
+        bool operadorClicado = true;
         public Calculadora()
         {
             InitializeComponent();
+        }
+
+        private void btnigual_Click(object sender, EventArgs e)
+        {
+            // Implementar depois...
+        }
+
+        private void numero_Click(object sender, EventArgs e)
+        {
+            // Obter o botão que está chamando esse evento:
+            Button botaoClicado = (Button)sender;
+            // Adicionar o Text do botão clicado no Textbox:
+            txbtela.Text += botaoClicado.Text;
+            // Mudar o operadorClicado para false
+            operadorClicado = false;
+        }
+        private void operador_Click(object sender, EventArgs e)
+        {
+            // Verificar se o operador ainda não foi clicado:
+            if (operadorClicado == false)
+            {
+                // Obter o botão que está chamando esse evento:
+                Button botaoClicado = (Button)sender;
+                // Adicionar o Text do botão clicado no Textbox:
+                txbtela.Text += botaoClicado.Text;
+
+                // Mudar o operadorClicado para true:
+                operadorClicado = true;
+            }
         }
     }
 }

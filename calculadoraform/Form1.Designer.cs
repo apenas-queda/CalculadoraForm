@@ -65,7 +65,7 @@
             this.btn7.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.InfoText;
             this.btn7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.btn7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn7.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn7.Font = new System.Drawing.Font("EngraversGothic BT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn7.ForeColor = System.Drawing.SystemColors.Window;
             this.btn7.Location = new System.Drawing.Point(5, 129);
             this.btn7.Name = "btn7";
@@ -73,6 +73,7 @@
             this.btn7.TabIndex = 0;
             this.btn7.Text = "7";
             this.btn7.UseVisualStyleBackColor = false;
+            this.btn7.Click += new System.EventHandler(this.numero_Click);
             // 
             // btn2
             // 
@@ -80,7 +81,7 @@
             this.btn2.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.InfoText;
             this.btn2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.btn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn2.Font = new System.Drawing.Font("EngraversGothic BT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn2.ForeColor = System.Drawing.SystemColors.Window;
             this.btn2.Location = new System.Drawing.Point(77, 273);
             this.btn2.Name = "btn2";
@@ -88,6 +89,7 @@
             this.btn2.TabIndex = 1;
             this.btn2.Text = "2";
             this.btn2.UseVisualStyleBackColor = false;
+            this.btn2.Click += new System.EventHandler(this.numero_Click);
             // 
             // btn1
             // 
@@ -95,7 +97,7 @@
             this.btn1.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.InfoText;
             this.btn1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.btn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn1.Font = new System.Drawing.Font("EngraversGothic BT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn1.ForeColor = System.Drawing.SystemColors.Window;
             this.btn1.Location = new System.Drawing.Point(5, 273);
             this.btn1.Name = "btn1";
@@ -103,6 +105,7 @@
             this.btn1.TabIndex = 2;
             this.btn1.Text = "1";
             this.btn1.UseVisualStyleBackColor = false;
+            this.btn1.Click += new System.EventHandler(this.numero_Click);
             // 
             // btn6
             // 
@@ -110,7 +113,7 @@
             this.btn6.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.InfoText;
             this.btn6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.btn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn6.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn6.Font = new System.Drawing.Font("EngraversGothic BT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn6.ForeColor = System.Drawing.SystemColors.Window;
             this.btn6.Location = new System.Drawing.Point(149, 201);
             this.btn6.Name = "btn6";
@@ -118,6 +121,7 @@
             this.btn6.TabIndex = 3;
             this.btn6.Text = "6";
             this.btn6.UseVisualStyleBackColor = false;
+            this.btn6.Click += new System.EventHandler(this.numero_Click);
             // 
             // btn9
             // 
@@ -125,7 +129,7 @@
             this.btn9.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.InfoText;
             this.btn9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.btn9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn9.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn9.Font = new System.Drawing.Font("EngraversGothic BT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn9.ForeColor = System.Drawing.SystemColors.Window;
             this.btn9.Location = new System.Drawing.Point(149, 129);
             this.btn9.Name = "btn9";
@@ -133,6 +137,7 @@
             this.btn9.TabIndex = 7;
             this.btn9.Text = "9";
             this.btn9.UseVisualStyleBackColor = false;
+            this.btn9.Click += new System.EventHandler(this.numero_Click);
             // 
             // btn8
             // 
@@ -140,7 +145,7 @@
             this.btn8.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.InfoText;
             this.btn8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.btn8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn8.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn8.Font = new System.Drawing.Font("EngraversGothic BT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn8.ForeColor = System.Drawing.SystemColors.Window;
             this.btn8.Location = new System.Drawing.Point(77, 129);
             this.btn8.Name = "btn8";
@@ -148,6 +153,7 @@
             this.btn8.TabIndex = 6;
             this.btn8.Text = "8";
             this.btn8.UseVisualStyleBackColor = false;
+            this.btn8.Click += new System.EventHandler(this.numero_Click);
             // 
             // btn4
             // 
@@ -155,7 +161,7 @@
             this.btn4.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.InfoText;
             this.btn4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn4.Font = new System.Drawing.Font("EngraversGothic BT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn4.ForeColor = System.Drawing.SystemColors.Window;
             this.btn4.Location = new System.Drawing.Point(5, 201);
             this.btn4.Name = "btn4";
@@ -163,6 +169,7 @@
             this.btn4.TabIndex = 5;
             this.btn4.Text = "4";
             this.btn4.UseVisualStyleBackColor = false;
+            this.btn4.Click += new System.EventHandler(this.numero_Click);
             // 
             // btn5
             // 
@@ -170,7 +177,7 @@
             this.btn5.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.InfoText;
             this.btn5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn5.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn5.Font = new System.Drawing.Font("EngraversGothic BT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn5.ForeColor = System.Drawing.SystemColors.Window;
             this.btn5.Location = new System.Drawing.Point(77, 201);
             this.btn5.Name = "btn5";
@@ -178,6 +185,7 @@
             this.btn5.TabIndex = 4;
             this.btn5.Text = "5";
             this.btn5.UseVisualStyleBackColor = false;
+            this.btn5.Click += new System.EventHandler(this.numero_Click);
             // 
             // btn3
             // 
@@ -185,7 +193,7 @@
             this.btn3.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.InfoText;
             this.btn3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn3.Font = new System.Drawing.Font("EngraversGothic BT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn3.ForeColor = System.Drawing.SystemColors.Window;
             this.btn3.Location = new System.Drawing.Point(149, 273);
             this.btn3.Name = "btn3";
@@ -193,6 +201,7 @@
             this.btn3.TabIndex = 8;
             this.btn3.Text = "3";
             this.btn3.UseVisualStyleBackColor = false;
+            this.btn3.Click += new System.EventHandler(this.numero_Click);
             // 
             // btn0
             // 
@@ -200,7 +209,7 @@
             this.btn0.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.InfoText;
             this.btn0.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.btn0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn0.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn0.Font = new System.Drawing.Font("EngraversGothic BT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn0.ForeColor = System.Drawing.SystemColors.Window;
             this.btn0.Location = new System.Drawing.Point(5, 345);
             this.btn0.Name = "btn0";
@@ -208,6 +217,7 @@
             this.btn0.TabIndex = 9;
             this.btn0.Text = "0";
             this.btn0.UseVisualStyleBackColor = false;
+            this.btn0.Click += new System.EventHandler(this.numero_Click);
             // 
             // btnigual
             // 
@@ -215,7 +225,7 @@
             this.btnigual.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.InfoText;
             this.btnigual.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.btnigual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnigual.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnigual.Font = new System.Drawing.Font("EngraversGothic BT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnigual.ForeColor = System.Drawing.SystemColors.Window;
             this.btnigual.Location = new System.Drawing.Point(221, 324);
             this.btnigual.Name = "btnigual";
@@ -223,6 +233,7 @@
             this.btnigual.TabIndex = 10;
             this.btnigual.Text = "=";
             this.btnigual.UseVisualStyleBackColor = false;
+            this.btnigual.Click += new System.EventHandler(this.btnigual_Click);
             // 
             // btnmais
             // 
@@ -230,7 +241,7 @@
             this.btnmais.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.InfoText;
             this.btnmais.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.btnmais.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnmais.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmais.Font = new System.Drawing.Font("EngraversGothic BT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnmais.ForeColor = System.Drawing.SystemColors.Window;
             this.btnmais.Location = new System.Drawing.Point(221, 246);
             this.btnmais.Name = "btnmais";
@@ -238,6 +249,7 @@
             this.btnmais.TabIndex = 11;
             this.btnmais.Text = "+";
             this.btnmais.UseVisualStyleBackColor = false;
+            this.btnmais.Click += new System.EventHandler(this.operador_Click);
             // 
             // btnmenos
             // 
@@ -245,7 +257,7 @@
             this.btnmenos.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.InfoText;
             this.btnmenos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.btnmenos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnmenos.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmenos.Font = new System.Drawing.Font("EngraversGothic BT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnmenos.ForeColor = System.Drawing.SystemColors.Window;
             this.btnmenos.Location = new System.Drawing.Point(221, 207);
             this.btnmenos.Name = "btnmenos";
@@ -253,6 +265,7 @@
             this.btnmenos.TabIndex = 12;
             this.btnmenos.Text = "-";
             this.btnmenos.UseVisualStyleBackColor = false;
+            this.btnmenos.Click += new System.EventHandler(this.operador_Click);
             // 
             // btndividir
             // 
@@ -260,7 +273,7 @@
             this.btndividir.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.InfoText;
             this.btndividir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.btndividir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btndividir.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndividir.Font = new System.Drawing.Font("EngraversGothic BT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndividir.ForeColor = System.Drawing.SystemColors.Window;
             this.btndividir.Location = new System.Drawing.Point(221, 168);
             this.btndividir.Name = "btndividir";
@@ -268,6 +281,7 @@
             this.btndividir.TabIndex = 13;
             this.btndividir.Text = "%";
             this.btndividir.UseVisualStyleBackColor = false;
+            this.btndividir.Click += new System.EventHandler(this.operador_Click);
             // 
             // btndivisão
             // 
@@ -275,7 +289,7 @@
             this.btndivisão.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.InfoText;
             this.btndivisão.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.btndivisão.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btndivisão.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndivisão.Font = new System.Drawing.Font("EngraversGothic BT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndivisão.ForeColor = System.Drawing.SystemColors.Window;
             this.btndivisão.Location = new System.Drawing.Point(221, 129);
             this.btndivisão.Name = "btndivisão";
@@ -283,6 +297,7 @@
             this.btndivisão.TabIndex = 14;
             this.btndivisão.Text = "/";
             this.btndivisão.UseVisualStyleBackColor = false;
+            this.btndivisão.Click += new System.EventHandler(this.operador_Click);
             // 
             // btnlimpar
             // 
@@ -290,7 +305,7 @@
             this.btnlimpar.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.InfoText;
             this.btnlimpar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.btnlimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnlimpar.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnlimpar.Font = new System.Drawing.Font("EngraversGothic BT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnlimpar.ForeColor = System.Drawing.SystemColors.Window;
             this.btnlimpar.Location = new System.Drawing.Point(221, 285);
             this.btnlimpar.Name = "btnlimpar";
@@ -302,11 +317,12 @@
             // txbtela
             // 
             this.txbtela.BackColor = System.Drawing.Color.SteelBlue;
+            this.txbtela.Font = new System.Drawing.Font("EngraversGothic BT", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbtela.ForeColor = System.Drawing.SystemColors.Window;
-            this.txbtela.Location = new System.Drawing.Point(12, 47);
+            this.txbtela.Location = new System.Drawing.Point(12, 25);
             this.txbtela.Name = "txbtela";
             this.txbtela.ReadOnly = true;
-            this.txbtela.Size = new System.Drawing.Size(100, 20);
+            this.txbtela.Size = new System.Drawing.Size(270, 76);
             this.txbtela.TabIndex = 16;
             this.txbtela.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -315,7 +331,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(294, 422);
+            this.ClientSize = new System.Drawing.Size(291, 422);
             this.Controls.Add(this.txbtela);
             this.Controls.Add(this.btnlimpar);
             this.Controls.Add(this.btndivisão);
