@@ -313,6 +313,7 @@
             this.btnlimpar.TabIndex = 15;
             this.btnlimpar.Text = "C";
             this.btnlimpar.UseVisualStyleBackColor = false;
+            this.btnlimpar.Click += new System.EventHandler(this.btnlimpar_Click);
             // 
             // txbtela
             // 
